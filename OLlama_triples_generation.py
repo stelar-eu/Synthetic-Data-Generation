@@ -1,3 +1,10 @@
+# This notebook lets you:
+# - Choose a model and prompt style
+# - Generate triples by using the subject from the .CSV file
+# - Optionally shut down the Ollama server from within Jupyter Notebook
+# 
+# **Note:** Make sure ollama serve is running in your Terminal before running this notebook.
+
 # Step 1: Import required libraries
 import requests
 import time
